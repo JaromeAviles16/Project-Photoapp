@@ -1,0 +1,456 @@
+body, * , *:before, *:after {
+
+	box-sizing: border-box;
+}
+
+body {
+
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+
+  font-size: 16px;
+}
+
+p {
+
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+
+  
+  font-weight: 900;
+  font-family: "Dancing Script" , cursive;
+  text-transform: uppercase;
+  letter-spacing: 0.8rem;
+  
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.separation {
+
+  margin-bottom: 3em;
+}
+
+
+.page-design {
+
+  background-image: url(../imageDesign/design.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
+
+  height: 100px;
+
+}
+
+.design-title {
+
+  background-color: #fff;
+  padding: 0 5px;
+
+  position: absolute;
+  left: 450px;
+  top: 10px;
+
+}
+
+
+      /*=============================== 
+
+
+             Navigation 
+
+
+
+    ================================== */
+
+
+
+.navbar-default .navbar-brand {
+
+	color: #222;
+}
+
+.navbar-default .navbar-brand:hover {
+
+	color: #fff;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+
+	color: #222;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+
+	color: #fff;
+}
+
+
+/* ===================================================
+
+            Homepage
+
+======================================================= */
+
+#homepage {
+
+	background-image: url("../images/gallery.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+
+
+	padding-bottom: 20%;
+  margin-bottom: 1em;
+	
+
+}
+
+
+#main-page {
+
+	padding-top: 15%;
+	text-align: center;
+	color: #fff;
+
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 1.5s;
+  
+
+}
+
+   #main-page h1 {
+
+   	font-size: 5em;
+   	text-shadow: 2px 3px 1px #222,
+   	             2px 2px 1px #221100;
+
+
+   }
+
+
+   #main-page p {
+
+   font-size: 1.2rem;
+
+   }
+
+   #main-page hr {
+   	width: 400px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+  #main-page input {
+
+  	width: 345px;
+  	max-width: 80%;
+
+  	
+  }
+
+
+  /* ==============================================
+
+                   About PhotoApp 
+
+
+ ===================================================*/
+
+
+   #about-photoapp p {
+
+
+  text-align: center;
+  font-size: 1.8rem;
+  padding-top: 2rem;
+  line-height: 2.9rem;
+
+
+  }
+
+  #about-photoapp h2 {
+
+    text-align: center;
+  }
+
+  #about-photoapp strong:first-child {
+
+    text-transform: uppercase;
+    font-size: 2.2rem;
+  }
+
+  #about-photoapp strong:nth-of-type(2) {
+
+    text-transform: uppercase;
+    color: #5cb85c;
+  }
+
+
+
+
+
+
+
+
+  /* ==============================================
+
+
+
+                 About our Team Section
+
+
+  =================================================== */
+
+
+
+#about-us-team img {
+
+  width: 50%;
+  max-width: 400px;
+
+
+}
+
+
+   #about-us-team .image-fix-top {
+
+    padding-top: 20px;
+
+
+
+   }
+
+
+
+    #about-us-team .image-fix {
+
+       height: 290px;
+       max-height: 290px;
+
+    }
+
+
+   #about-us-team .about-title {
+
+
+    text-align: center;
+    padding-top: 0.5rem;
+
+
+
+   }
+
+
+
+/* ==================================================
+
+
+            Contact 
+
+
+=====================================================*/
+
+
+.contact {
+
+  background-image: url(../images/idea.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+
+  padding: 40px 10px;
+  margin: 0 auto;
+  
+}
+
+#contact-content {
+
+  max-width: 450px;
+  width: 80%;
+
+}
+
+ #contact-content label {
+
+  font-size: 1.1rem;
+  font-family: "Dancing script" , cursive;
+  font-weight: 800;
+
+  
+}
+
+
+
+ /* =================================================
+
+
+                    Footer 
+
+ ====================================================*/
+
+
+footer {
+
+  background-color: #101010;
+  color: #9d9d9d;
+  font-size: inherit;
+
+}
+
+
+  #footer-credit p {
+
+    padding-top: 2em;
+  }
+ 
+
+  #footer-rights {
+
+    float: left;
+  }
+
+
+  #footer-menu {
+
+    float: right;
+  }
+
+  #footer-menu ul {
+
+    list-style-type: none;
+  }
+
+    #footer-menu ul li {
+
+    display: inline;
+    margin: 0 5px;
+
+  }
+
+    #footer-menu ul li:last-child {
+
+      margin-right: 0;
+    }
+
+  #footer-menu li:not(:first-child):before {
+
+    content: "|";
+    padding-right: 5px;
+  }
+
+  #footer-menu ul li a {
+
+    color: #9d9d9d;
+    text-decoration: none;
+  }
+
+
+               /* Responsive Design */
+
+
+@media screen and (max-width:959px) {
+
+    .page-design {
+
+      width: 100%;
+
+    }
+
+  
+    .design-title {
+
+      position: absolute;
+      left: 260px;
+
+      
+    }
+
+
+
+  }
+
+  @media screen and (max-width:669px) {
+
+  
+    .design-title {
+
+      position: absolute;
+      left: 220px;
+
+      
+    }
+
+    .page-design {
+
+      width: 100%;
+      
+    }
+
+
+
+
+  }
+
+
+ @media screen and (max-width:525px) {
+
+  
+    .design-title {
+
+      position: absolute;
+      left: 150px;
+
+      
+    }
+
+    .page-design {
+
+      width: 100%;
+      
+    }
+
+
+
+
+  }
+
+  @media screen and (max-width:420px) {
+
+  
+    .design-title {
+
+      position: absolute;
+      left: 60px;
+
+      
+    }
+
+    .page-design {
+
+      width: 100%;
+      
+    }
+
+
+
+
+  }
